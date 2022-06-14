@@ -1,29 +1,32 @@
 /**
- * @name Redsun
+ * @name RedSun
  * @author DanManTv
  * @version 1.0.0
- * @description Highly customizable theme for BetterDiscord.
- * @source https://github.com/DanManTv/Red-Sun-Theme-For-BetterDiscord/blob/main/Red-Sun-Theme-For-BetterDiscord
+ * @description Mainly Red, Highly customizable theme for BetterDiscord.
+ * @source https://github.com/DanManTv/Red-Sun-Theme-For-BetterDiscord/edit/main/Red-Sun-Theme-For-BetterDiscord
  * @youtube https://www.youtube.com/channel/UCywJ3PblQHcME-IpNC2msEw
  */
 
-/* Credits to Zerthox for making the original theme. */
+/* Credits to ClearVision for making the original theme. */
+
+/* IMPORT CSS */
+@import url(https://clearvision.gitlab.io/v6/main.css);
 
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #9c2824; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #5e0202; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
-  --success-color: #00a008; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+  --main-color: #b91a14; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #860707; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: #1eff00; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #ff0000; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
 
   /* STATUS COLORS */
-  --online-color: #02b81a; /* online status color (hex, rgb or hsl) [default: #43b581] */
-  --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
-  --dnd-color: #810000; /* dnd status color (hex, rgb or hsl) [default: #982929] */
-  --streaming-color: #5426a3; /* streaming status color (hex, rgb or hsl) [default: #593695] */
-  --offline-color: #504141; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+  --online-color: #33ff00; /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --idle-color: #ffa200; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --dnd-color: #6b0000; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+  --streaming-color: #5000da; /* streaming status color (hex, rgb or hsl) [default: #593695] */
+  --offline-color: #4d4d4d; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
   /* GENERAL */
   --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
@@ -36,7 +39,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://wallpaper.dog/large/473325.png); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+  --background-image: url(https://wallpaper.dog/large/473325.png); /* app background image (link must be HTTPS) [default: url(https://wallpaper.dog/large/473325.png)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -55,7 +58,7 @@
   --home-size: 40px; /* home button icon size [default: 40px] */
 
   /* CHANNEL COLORS */
-  --channel-unread: #FF8103; /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+  --channel-unread: #ff7300; /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
   --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
   --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
   --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
